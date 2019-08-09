@@ -1,0 +1,236 @@
+//engineering.css is being processed initial-release v_0.01
+//By Mahesh Muttinti
+:root{
+    background-color:default;
+    height:100%;
+    width:100%;
+    display:grid;
+    display:-webkit-grid;
+    line-height:1.2;
+    display:-ms-grid;
+    user-select:none;
+    -ms-user-select:none;
+    -webkit-user-select:none;
+    position:fixed;
+    overflow:hidden;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    font-weight:430;
+    --electronics:#ece;
+    --electrical:#eea;
+    --computer:#cce;
+    --mechanical:#eaa;
+    --petroleum:#ee0;
+    --automobile:#ae0;
+    --civil:#c00;
+}
+body{
+    min-height:100%;
+    min-width:100%;
+    height:100vh !important;
+    width:100vw !important;
+    margin:0;
+    padding:0;
+}
+*,*::before,*::after{
+    box-shadow:border-box;
+}
+.header{
+    width:100%;
+    height:auto;
+    padding:1em;
+    display:flex;
+    justify-content:center;
+    position:absolute !important;
+    top:0;
+}
+.footer{
+    width:100%;
+    height:auto;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    position:absolute !important;
+    bottom:0;
+}
+.text{
+    font-family:sans-serif;
+    color:currentColor;
+    font-style:normal;
+    font-size:normal;
+}
+.capital{
+    text-transform:uppercase;
+}
+.lower{
+    text-transform:lowercase;
+}
+.allcapital{
+    font-variant:small-caps;
+}
+.p{
+    font-style:normal;
+    margin:0;
+    padding:8px;
+    font-size:normal;
+    font-weight:normal;
+}
+.span{
+    font-weight:300;
+    font-style:normal;
+    font-size:normal;
+    display:inline-block;
+    margin:0;
+    padding:0;
+}
+.left{
+    text-align:left;
+}
+.right{
+    text-align:right;
+}
+.top{
+    position:absolute !important;
+    top:0;
+    left:0;
+}
+.bottom{
+    position:absolute !important;
+    bottom:0;
+    left:0;
+}
+.top_center{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    position:absolute !important;
+    top:0;
+}
+.right_center{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    position:absolute !important;
+    right:0;
+}
+.bottom_center{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+    position:absolute !important;
+    bottom:0;
+}
+.left_center{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    position:absolute !important;
+    left:0;
+}
+.bottom_left{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-start;
+    position:absolute !important;
+    left:0;
+    bottom:0;
+}
+.top_right{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-end;
+    position:absolute !important;
+    right:0;
+}
+.top_left{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    position:absolute !important;
+    left:0;
+    top:0;
+}
+.bottom_right{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+    position:absolute !important;
+    right:0;
+    bottom:0;
+}
+.perfect_center{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.backRed{
+    background:linear-gradient(90deg,transparent,tomato,coral,darkred);
+}
+.backGreen{
+    background:linear-gradient(90deg,transparent,lime,yellowgreen,forestgreen);
+}
+.backBlue{
+    background:linear-gradient(90deg,transparent,lightblue,cyan,blue);
+}
+.shadowVisible{
+    text-shadow:1px 1px 1px #000,-1px 1px 1px #000,1px -1px 1px #000,-1px -1px 1px #000;
+}
+._1x{
+    font-size:1em;  
+}
+._2x{
+    font-size:2em;
+}
+._3x{
+    font-size:3em;
+}
+._4x{
+    font-size:4em;
+}
+._5x{
+    font-size:5em;
+}
+._6x{
+    font-size:6em;
+}
+._7x{
+    font-size:7em;
+}
+.electronics{
+    color:var(--electronics);
+}
+.mechanical{
+    color:var(--mechanical);
+}
+.petroleum{
+    color:var(--petroleum);
+}
+.computer{
+    color:var(--computer);
+}
+.automobile{
+    color:var(--automobile);
+}
+.civil{
+    color:var(--civil);
+}
+.electrical{
+    color:var(--electrical);
+}
