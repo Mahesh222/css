@@ -14,13 +14,6 @@
     text-rendering:auto;
     -webkit-font-smoothing:antialiased;
     font-weight:normal;
-    --electronics:#ece;
-    --electrical:#eea;
-    --computer:#cce;
-    --mechanical:#eaa;
-    --petroleum:#ee0;
-    --automobile:#ae0;
-    --civil:#c00;
 }
 .grid_2{
     grid-row:span 3;
@@ -288,25 +281,25 @@ body{
     font-size:7em;
 }
 .electronics{
-    color:var(--electronics);
+    color:#eceece;
 }
 .mechanical{
-    color:var(--mechanical);
+    color:#eaaeaa;
 }
 .petroleum{
-    color:var(--petroleum);
+    color:#eeeeee;
 }
 .computer{
-    color:var(--computer);
+    color:#cecece;
 }
 .automobile{
-    color:var(--automobile);
+    color:#aeaeae;
 }
 .civil{
-    color:var(--civil);
+    color:#cccccc;
 }
 .electrical{
-    color:var(--electrical);
+    color:#eecaec;
 }
 .mechanical,.civil,.automobile,.computer,.petroleum,.electronics,.electrical{
     font-style:normal;
