@@ -2,17 +2,12 @@
     height:100%;
     width:100%;
     display:grid;
-    display:-webkit-grid;
     line-height:1.2;
-    display:-ms-grid;
     grid-template-rows:repeat(5,1fr);
     user-select:none;
-    -ms-user-select:none;
-    -webkit-user-select:none;
     position:fixed;
     overflow:hidden;
     text-rendering:auto;
-    -webkit-font-smoothing:antialiased;
     font-weight:normal;
 }
 .grid_2{
